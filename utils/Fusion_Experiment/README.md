@@ -12,9 +12,8 @@ In order to run the Fusion Experiments, copy the modified run, model and main fi
 
 ```
 cp Fusion_main.py Fusion_model.py Fusion_run.py ../../baseline_code
-
 ```
-Note: All the preprocessing steps are the same and can use the original main.py file
+Note: All the preprocessing steps are the same as the baseline approach, and can be done using the original main.py file or the updated Fusion_main.py file.
 
 
 ## Training

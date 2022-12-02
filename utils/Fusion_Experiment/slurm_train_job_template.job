@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --mem=150GB
+#SBATCH --cpus-per-task=12
+#SBATCH --partition=gpu
+#SBATCH --gres=gpu:v100:2
+#SBATCH --time=16:00:00
+#SBATCH --account=xiangren_818
+#SBATCH --exclude=a02-05,a03-08,a03-19,a02-03,a02-08
+
+conda init bash
+
+conda activate hot
+
+cp Fusion_main.py Fusion_model.py Fusion_run.py ../../baseline_code
+
+cd ../../basline_code
+
+CUDA_VISIBLE_DEVICES=0 python Fusion_main.py --mode train --para_limit 2250 --batch_size 48 --init_lr 0.1 --keep_prob 1.0 --sp_lambda 1.0 --fusion none
