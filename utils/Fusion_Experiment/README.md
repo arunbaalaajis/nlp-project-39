@@ -39,3 +39,5 @@ Then call the evaluation script:
 ```
 python hotpot_evaluate_v1.py dev_distractor_pred.json hotpot_dev_distractor_v1.json
 ```
+Reference:
+1. PyTorch Fusion Blocks: https://github.com/Cadene/block.bootstrap.pytorch
