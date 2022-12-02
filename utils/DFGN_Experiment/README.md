@@ -16,5 +16,5 @@ python run_clm.py \
 To use the fine-tuned model: Please download the model from our google drive link: https://drive.google.com/drive/folders/1AnX0Xj-MW3FMcX2A12vS_2qYinVipVct?usp=sharing
 
 Reference:
-1. Huggingface run_clm trainer: https://github.com/huggingface/transformers/blob/main/examples/pytorch/language-modeling/run_clm.py
+1. PyTorch Fusion Blocks: https://github.com/Cadene/block.bootstrap.pytorch
 
