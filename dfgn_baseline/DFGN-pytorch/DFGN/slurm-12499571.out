@@ -1,0 +1,47 @@
+no change     /spack/apps/anaconda3/2021.05/condabin/conda
+no change     /spack/apps/anaconda3/2021.05/bin/conda
+no change     /spack/apps/anaconda3/2021.05/bin/conda-env
+no change     /spack/apps/anaconda3/2021.05/bin/activate
+no change     /spack/apps/anaconda3/2021.05/bin/deactivate
+no change     /spack/apps/anaconda3/2021.05/etc/profile.d/conda.sh
+no change     /spack/apps/anaconda3/2021.05/etc/fish/conf.d/conda.fish
+no change     /spack/apps/anaconda3/2021.05/shell/condabin/Conda.psm1
+no change     /spack/apps/anaconda3/2021.05/shell/condabin/conda-hook.ps1
+no change     /spack/apps/anaconda3/2021.05/lib/python3.8/site-packages/xontrib/conda.xsh
+no change     /spack/apps/anaconda3/2021.05/etc/profile.d/conda.csh
+no change     /home1/arunbaal/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+The cache for model files in Transformers v4.22.0 has been updated. Migrating your old cache. This is a one-time only operation. You can interrupt this and resume the migration later on by calling `transformers.utils.move_cache()`.
+Moving 0 files to the new cache system
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Downloading:   0%|          | 0.00/232k [00:00<?, ?B/s]Downloading:  18%|█▊        | 41.0k/232k [00:00<00:00, 325kB/s]Downloading:  87%|████████▋ | 201k/232k [00:00<00:00, 886kB/s] Downloading: 100%|██████████| 232k/232k [00:00<00:00, 918kB/s]
+Downloading:   0%|          | 0.00/28.0 [00:00<?, ?B/s]Downloading: 100%|██████████| 28.0/28.0 [00:00<00:00, 34.5kB/s]
+Downloading:   0%|          | 0.00/570 [00:00<?, ?B/s]Downloading: 100%|██████████| 570/570 [00:00<00:00, 649kB/s]
+cuda:0
+['cuda:1']
+Downloading:   0%|          | 0.00/440M [00:00<?, ?B/s]Downloading:   2%|▏         | 8.44M/440M [00:00<00:05, 84.4MB/s]Downloading:   4%|▍         | 16.9M/440M [00:00<00:05, 75.4MB/s]Downloading:   6%|▌         | 27.2M/440M [00:00<00:04, 87.2MB/s]Downloading:   8%|▊         | 37.0M/440M [00:00<00:04, 91.4MB/s]Downloading:  11%|█         | 47.5M/440M [00:00<00:04, 96.2MB/s]Downloading:  13%|█▎        | 57.7M/440M [00:00<00:03, 98.0MB/s]Downloading:  15%|█▌        | 68.2M/440M [00:00<00:03, 100MB/s] Downloading:  18%|█▊        | 78.4M/440M [00:00<00:03, 101MB/s]Downloading:  20%|██        | 88.6M/440M [00:00<00:03, 101MB/s]Downloading:  22%|██▏       | 99.1M/440M [00:01<00:03, 102MB/s]Downloading:  25%|██▍       | 109M/440M [00:01<00:03, 102MB/s] Downloading:  27%|██▋       | 120M/440M [00:01<00:03, 102MB/s]Downloading:  30%|██▉       | 130M/440M [00:01<00:03, 103MB/s]Downloading:  32%|███▏      | 140M/440M [00:01<00:02, 102MB/s]Downloading:  34%|███▍      | 151M/440M [00:01<00:02, 103MB/s]Downloading:  37%|███▋      | 161M/440M [00:01<00:02, 103MB/s]Downloading:  39%|███▉      | 171M/440M [00:01<00:02, 102MB/s]Downloading:  41%|████▏     | 182M/440M [00:01<00:02, 103MB/s]Downloading:  44%|████▎     | 192M/440M [00:01<00:02, 102MB/s]Downloading:  46%|████▌     | 202M/440M [00:02<00:02, 102MB/s]Downloading:  48%|████▊     | 213M/440M [00:02<00:02, 102MB/s]Downloading:  51%|█████     | 223M/440M [00:02<00:02, 98.8MB/s]Downloading:  53%|█████▎    | 233M/440M [00:02<00:02, 100MB/s] Downloading:  55%|█████▌    | 243M/440M [00:02<00:01, 99.4MB/s]Downloading:  58%|█████▊    | 254M/440M [00:02<00:01, 100MB/s] Downloading:  60%|█████▉    | 264M/440M [00:02<00:01, 101MB/s]Downloading:  62%|██████▏   | 274M/440M [00:02<00:01, 101MB/s]Downloading:  65%|██████▍   | 285M/440M [00:02<00:01, 102MB/s]Downloading:  67%|██████▋   | 295M/440M [00:02<00:01, 102MB/s]Downloading:  69%|██████▉   | 305M/440M [00:03<00:01, 102MB/s]Downloading:  72%|███████▏  | 315M/440M [00:03<00:01, 101MB/s]Downloading:  74%|███████▍  | 325M/440M [00:03<00:01, 101MB/s]Downloading:  76%|███████▌  | 336M/440M [00:03<00:01, 102MB/s]Downloading:  79%|███████▊  | 346M/440M [00:03<00:00, 102MB/s]Downloading:  81%|████████  | 356M/440M [00:03<00:00, 102MB/s]Downloading:  83%|████████▎ | 367M/440M [00:03<00:00, 103MB/s]Downloading:  86%|████████▌ | 377M/440M [00:03<00:00, 102MB/s]Downloading:  88%|████████▊ | 387M/440M [00:03<00:00, 102MB/s]Downloading:  90%|█████████ | 398M/440M [00:03<00:00, 102MB/s]Downloading:  93%|█████████▎| 408M/440M [00:04<00:00, 102MB/s]Downloading:  95%|█████████▍| 418M/440M [00:04<00:00, 103MB/s]Downloading:  97%|█████████▋| 429M/440M [00:04<00:00, 101MB/s]Downloading: 100%|█████████▉| 439M/440M [00:04<00:00, 101MB/s]Downloading: 100%|██████████| 440M/440M [00:04<00:00, 101MB/s]
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/var/spool/slurm/d/job12499571/slurm_script: line 15: 39904 Killed                  python train.py --name=test --q_update --q_attn --basicblock_trans --bfs_clf
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=12499571.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
