@@ -1,4 +1,4 @@
-# Experiments Performed by Group 39
+# Experiments Performed
 
 The Fusion_Experiment folder contains instructions on how to run the Fusion experiments on the HotPotQA Baseline.
 
